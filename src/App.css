@@ -1,0 +1,114 @@
+body{
+  background:#efefef;
+  margin: 0;
+}
+.app-block {
+  margin: 50px;
+  border: 2px solid #ccc;
+  padding: 20px;
+  background: #fefefe;
+}
+h1{
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 20px;
+}
+h2{
+  font-size: 24px;
+}
+.customer-list {
+  .customer-date{
+    .customer-date__list{
+      margin: 0;
+      list-style: none;
+      padding: 0 0 10px;
+      display: flex;
+      li{
+        display: flex;
+        padding: 5px 15px;
+        font-size: 12px;
+        background:#ccc;
+        border-radius: 30px;
+        margin-right: 5px;
+      }
+    }
+  }
+ul.service-list {
+  margin: 0 0 30px;
+  padding: 0;
+  list-style: none;
+
+  li {
+    padding: 5px 15px;
+    border-width: 1px 1px 0;
+    border-color: #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-style: solid;
+    background:#efefef;
+    font-size: 14px;
+
+    &:last-child {
+      border-bottom: 1px solid #ccc;
+    }
+  }
+}
+
+}
+
+  div.search {
+    margin: 15px 0;
+    position: relative;
+
+    .input-search {
+      width: 100%;
+      background: #000;
+      color: #fff;
+      padding: 20px 40px;
+      border: 0;
+      margin: 0 0 20px;
+      transition: all 0.3s ease-in-out;
+    
+      &::placeholder {
+        color: #fff;
+      }
+
+      &:focus {
+        background-color: #000;
+        color: #fff;
+        box-shadow: 0 0 0 0.25rem rgb(199 203 207 / 25%);
+      }
+    }
+
+    i {
+      position: absolute;
+      opacity: 0.6;
+      padding: 1em;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      color: #fff;
+    }
+  }
+
+h2.customer-title{
+  display: flex;
+    align-items: center;
+    .customer-icon{
+      display: flex;
+      margin-right: 5px;
+      svg{
+        color: #999;
+      }
+    }
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
